@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 type StarType = { id: number; size: number; x: number; y: number; opacity: number; animationDuration: number; };
 type MeteorsType = { id: number; size: number; x: number; y: number; delay: number; animationDuration: number; };
@@ -83,7 +83,7 @@ export const StarBackground = () => {
             height: meteor.size * 2 + "px",
             left: meteor.x + "%",
             top: meteor.y + "%",
-            animationDelay: meteor.delay,
+            // animationDelay: meteor.delay,
             animationDuration: meteor.animationDuration + "s",
           }}
         />
