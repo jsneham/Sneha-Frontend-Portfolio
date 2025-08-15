@@ -14,16 +14,14 @@ export const HeroSection = () => {
               {" "}
               Sneha
             </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
+            {/* <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
               Jadhav
-            </span>
+            </span> */}
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+            I am a Frontend Developer with over 6 years of experience, including building fast, user-friendly web applications for a fintech startup using React and TypeScript. Previously, I worked with service-based companies, developing Android applications and gaining expertise across both web and mobile platforms. I am passionate about solving problems, continuously learning, and delivering seamless user experiences.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
